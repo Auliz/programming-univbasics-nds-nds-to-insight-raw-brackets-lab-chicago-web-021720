@@ -3,7 +3,7 @@ require 'directors_database'
 
 def directors_totals(nds)
  # pp nds
-  result = {}   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
+  result = {}
   ri = 0 #row index
 
   while ri < nds.length do
